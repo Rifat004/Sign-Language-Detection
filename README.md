@@ -20,14 +20,17 @@ Other versions may work. I have done with this requirements for the compatibilit
 ## 4. Loading the dataset,Data Augmentation and Training
 Both the train and test data set are in .csv format.I also did data augmentation to reduce overfitting.
 Here is my training and validation accuracy curve.
+
 ![](val.png)
 
 ## 5. Model Structure
 I have tried some parameter tuning. But i found a nice test set accuracy of about 97% with simple CNN model 
-![](we.png)
+<p align="center">
+  <img src="we.png" />
+</p>
 
 ## 6. Saving the model
-I have saved the model in two files.(.h5 and .json)
+I have saved the model in two files(.h5 and .json).
 
 ## 7. Creating the Gui Using Tkinter
 I have uploaded the file. Run and Enjoy!
